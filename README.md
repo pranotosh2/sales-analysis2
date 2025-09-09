@@ -31,7 +31,7 @@ CALCULATE(
     [TotalSales],
     SAMEPERIODLASTYEAR(Sales[OrderDate])
 )
-- YoY Change = [TotalSales] - [YoY Sales]
+  - YoY Change = [TotalSales] - [YoY Sales]
 
 - **Visualizations**
   - 📊 **Clustered Column Chart**: Comparison of total sales and total costs by month.  
