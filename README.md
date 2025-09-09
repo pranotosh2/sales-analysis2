@@ -1,4 +1,4 @@
-# Sales Analysis SQL
+# 🐬Sales Analysis SQL
 
 This repository contains SQL scripts for sales data analysis, including:
 
