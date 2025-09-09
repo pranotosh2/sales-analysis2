@@ -23,7 +23,17 @@ This project provides an interactive sales analysis dashboard created using **Po
   - Total Sales  
   - Total Costs  
   - Total Profit
-  - Total Orders  
+  - Total Orders
+- **DAX**
+  - TotalCosts = SUM(Sales[Cost])
+  - TotalSales = SUM(Sales[Sale])
+  - profit = [TotalSales]-[TotalCosts]
+  - YoY Sales = 
+CALCULATE(
+    [TotalSales],
+    SAMEPERIODLASTYEAR(Sales[OrderDate])
+)
+- YoY Change = [TotalSales] - [YoY Sales]
 
 - **Visualizations**
   - 📊 **Clustered Column Chart**: Comparison of total sales and total costs by month.  
