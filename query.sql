@@ -142,8 +142,9 @@ SELECT Year,
        Total_Sale - LAG(Total_Sale) OVER (ORDER BY Year) AS YoY_Change
 FROM yearly_sales
 ORDER BY Year;
-
+-- ============================================
 -- Number of Order in each Year
+-- ============================================
 SELECT 
     YEAR(STR_TO_DATE(OrderDate, '%m/%d/%Y')) AS Year,
     COUNT(DISTINCT ï»¿OrderNumber) AS Total_Orders
