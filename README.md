@@ -47,7 +47,7 @@ CALCULATE(
 
 - **Interactivity**
   - **Slicer by Order Date** to dynamically filter and explore the data.
-## 🛠 Tools Used
+##  Tools Used
 - MySQL
 - Power BI  
 - DAX (for calculated measures) 
