@@ -1,7 +1,5 @@
 # 🐬Sales Analysis SQL
-
 This repository contains SQL scripts for sales data analysis, including:
-
 - Total sales, costs, quantity, and orders
 - Top products by quantity and profit
 - Sales by region, category, and country
@@ -50,12 +48,6 @@ CALCULATE(
 - **Interactivity**
   - **Slicer by Order Date** to dynamically filter and explore the data.
 ## 🛠️ Tools Used
+- MySQL
 - Power BI  
-- DAX (for calculated measures)  
-- Data modeling techniques  
-
-## 📌 Insights
-- Identified monthly and quarterly sales trends.  
-- Highlighted top-performing products.  
-- Regional profit variations analyzed through interactive visuals.  
-- Simplified data exploration with slicers and tooltips.  
+- DAX (for calculated measures) 
